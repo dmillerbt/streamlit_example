@@ -28,5 +28,5 @@ with st.container():
     st.write("I work at Baker Tilly as a consultant")
 
   with right_column:
-    stl(lottie_animation, height = 250, key = "data_viz")
+    stl.st_lottie(lottie_animation, height = 250, key = "data_viz")
 
